@@ -26,9 +26,10 @@ class ThemeManager with ChangeNotifier {
       _updateTheme(ThemeType.light);
     }
   }
-  void _updateTheme(ThemeType type){
+
+  void _updateTheme(ThemeType type) {
     themeType = type;
-    if(themeType == ThemeType.dark) {
+    if (themeType == ThemeType.dark) {
       themeData = ThemeData.light();
     } else {
       themeData = ThemeData.dark();
@@ -36,5 +37,3 @@ class ThemeManager with ChangeNotifier {
     notifyListeners();
   }
 }
-
-

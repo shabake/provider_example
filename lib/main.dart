@@ -40,11 +40,12 @@ class _GHomePageState extends State<GHomePage> {
           children: <Widget>[
             Text(
               "点击悬浮button切换主题",
-              style: TextStyle(fontSize: 30),
+              style: TextStyle(fontSize: 20),
             ),
+            SizedBox(height: 20,),
             Text(
-              "${Provider.of<ThemeManager>(context, listen: true).themeType != ThemeType.light ? "默认":"暗黑"}",
-              style: TextStyle(fontSize: 30),
+              "${Provider.of<ThemeManager>(context, listen: true).themeType != ThemeType.light ? "默认" : "暗黑"}",
+              style: TextStyle(fontSize: 20),
             ),
           ],
         ),
