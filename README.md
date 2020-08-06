@@ -1,16 +1,10 @@
 # provider_example
 
-A new Flutter project.
+flutter 通过状态管理实现切换主题
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+![image.png](https://upload-images.jianshu.io/upload_images/1419035-fe20002c18737b65.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/320)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image.png](https://upload-images.jianshu.io/upload_images/1419035-081dea5c26d30110.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/320)
